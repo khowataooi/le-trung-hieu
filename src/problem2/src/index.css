@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #e5dfec;
+}
+
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  min-height: 100dvh;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+@theme {
+  --color-background: #0d1216;
+  --color-border: #212d3b;
+  --color-border-hover: #bdc1c6;
+  --color-button-hover: #212d3b;
+}
